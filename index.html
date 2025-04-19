@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorGames</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>WorGames</h1>
+    <input type="text" id="search" placeholder="Pesquisar jogos..." />
+    <div class="mode-toggle">
+      <button id="toggleTheme">🌙 / ☀️</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="filters">
+      <div id="topics">
+        <button class="topic">Ação</button>
+        <button class="topic">Mundo Aberto</button>
+        <button class="topic">RPG</button>
+        <button class="topic">Tiro</button>
+        <button class="topic">Corrida</button>
+        <button class="topic">Terror</button>
+        <button class="topic">Esportes</button>
+        <button class="topic">Aventura</button>
+      </div>
+      <div id="platforms" class="hidden">
+        <button class="platform">Nintendo Switch</button>
+        <button class="platform">PS4</button>
+        <button class="platform">PS5</button>
+        <button class="platform">PC</button>
+        <button class="platform">Xbox One</button>
+        <button class="platform">Xbox Series X/S</button>
+      </div>
+    </section>
+
+    <section id="games-list">
+      <!-- Os jogos vão aparecer aqui -->
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
